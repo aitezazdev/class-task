@@ -5,22 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <h1>User Login</h1>
+    <main id="main">
+        <h1>USER LOGIN</h1>
     <form>
-        <div>
-            <label for="username"><i class="fas fa-id-badge"></i></label>
+        <div id="user-name">
+            <i class="fa fa-thin fa-circle-user"></i>
             <input type="text" placeholder="Username" required>
         </div>
 
-        <div>
-            <label for="password"><i class="fas fa-lock"></i></label>
+        <div id="pass">
             <input type="password" placeholder="Password" required>
+            <i class="fas fa-lock"></i>
         </div>
 
-        <input type="submit" value="LOGIN">
+        <input type="submit" value="LOGIN" id="btn">
     </form>
+    </main>
 </body>
 </html>

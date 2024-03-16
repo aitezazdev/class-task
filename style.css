@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#main{
+    width: 30%;
+    height: 50vh;
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#main h1{
+    text-align: center;
+}
+
+#user-name, #pass{
+    width: 80%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 2rem auto;
+}
+
+#user-name i, #pass i  {
+    font-size: 1.5rem;
+}
+
+
+#user-name input, #pass input{
+    width: 80%;
+    height: 1.2rem;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+#btn{
+    width: 82%;
+    display: block;
+    padding: 10px 15px;
+    margin: 2rem auto;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}
